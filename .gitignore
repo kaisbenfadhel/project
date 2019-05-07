@@ -1,0 +1,21 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Scala template
+*.class
+*.log
+.history
+.idea
+*.xml
+*export
+*.xsl
+*out*
+*inputs
+*resolved*
+*ivy-*
+*copy-re*
+*input_ds*
+*UKSA*
+*data
+*.jar
+*build.properties
+
+
