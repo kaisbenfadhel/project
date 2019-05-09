@@ -13,6 +13,8 @@ object MyFirstScalaSpark {
       .csv(filePath)
     println(data.count)
     data.printSchema
+
+    
     data.show
     val orderedData = data.orderBy(("Date of Payment"))
     orderedData.show(5)
