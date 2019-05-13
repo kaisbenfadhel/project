@@ -11,7 +11,7 @@ object MyFirstScalaSpark {
       .option("inferSchema", true)
       .option("timestampFormat", "dd/MM/yyyy")
       .csv(filePath)
-    
+    println("Comptage")
     println(data.count)
     data.printSchema
     data.show
