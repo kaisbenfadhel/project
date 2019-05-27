@@ -12,13 +12,14 @@ object MyFirstScalaSpark {
       .option("timestampFormat", "dd/MM/yyyy")
       .csv(filePath)
     println("Comptage")
+
     println(data.count)
     data.printSchema
     data.show
 
 
     val orderedData = data.orderBy(("Date of Payment"))
-    orderedData.show(5)
+    orderedData.show(30)
     spark.stop()
   }
 }
