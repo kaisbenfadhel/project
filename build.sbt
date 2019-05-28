@@ -6,7 +6,7 @@ libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.2"
 
 publishTo := {
   val nexus = "http://localhost:8081/repository/project/"
-  if (version.value.trim.endsWith("SNAPSHOT"))
+  if (version=="0.1.0-SNAPSHOT")
     Some("snapshots" at nexus + "content/repositories/snapshots")
   else
     Some("releases"  at nexus + "service/local/staging/deploy/maven2")
