@@ -12,6 +12,8 @@ object MyFirstScalaSpark {
       .option("timestampFormat", "dd/MM/yyyy")
       .csv(filePath)
     println(data.count)
+
+    
     data.printSchema
     data.show
     val orderedData = data.orderBy(("Date of Payment"))
