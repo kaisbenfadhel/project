@@ -15,7 +15,6 @@ object MyFirstScalaSpark {
     data.printSchema
 
     data.show
-
     val orderedData = data.orderBy(("Date of Payment"))
     orderedData.show(5)
     spark.stop()
