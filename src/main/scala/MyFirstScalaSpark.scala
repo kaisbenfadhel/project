@@ -12,7 +12,6 @@ object MyFirstScalaSpark {
       .option("timestampFormat", "dd/MM/yyyy")
       .csv(filePath)
     println(data.count)
-
     
     data.printSchema
     data.show
