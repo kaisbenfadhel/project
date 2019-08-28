@@ -8,6 +8,7 @@ libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.2"
 
 
 sbtPlugin := true
+
 publishMavenStyle := true
 //publishArtifact in Test := false
 //pomIncludeRepository := { _ => false }
