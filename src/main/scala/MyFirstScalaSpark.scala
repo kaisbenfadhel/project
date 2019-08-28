@@ -17,6 +17,7 @@ object MyFirstScalaSpark {
 
     val orderedData = data.orderBy(("Date of Payment"))
     orderedData.show(5)
+
     
     spark.stop()
   }
