@@ -19,6 +19,7 @@ publishLocalConfiguration := publishLocalConfiguration.value.withOverwrite(true)
 //publishTo := Some("Sonatype Nexus Repository Manager" at "http://localhost:8081/repository/snapshots/")
 //publishTo := Some("Sonatype Snapshots Nexus" at "http://localhost:8081/repository/snapshots/")
 
+
 isSnapshot := true
 publishTo := {
   val nexus = "http://localhost:8081/"
