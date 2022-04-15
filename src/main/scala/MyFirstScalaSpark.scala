@@ -6,6 +6,7 @@ object MyFirstScalaSpark {
       .appName("MyFirstScalaSpark")
       .getOrCreate()
     val filePath = args(0)
+    
     val data = spark.read
       .option("header", true)
       .option("inferSchema", true)
