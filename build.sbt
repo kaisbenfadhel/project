@@ -1,7 +1,7 @@
 name := "MyFirstScalaSpark"
 version := "1.2.8"
 scalaVersion := "2.12.8"
-Compile / scalacOptions += "-Wconf:cat=unused-nowarn:s"
+scalacOptions += "-Wconf:cat=unused-nowarn:s"
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.2"
 libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.2"
 sbtPlugin := true
